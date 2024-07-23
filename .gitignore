@@ -186,3 +186,4 @@ data/coco_search
 experiments/
 
 *.npy
+*.pdf
