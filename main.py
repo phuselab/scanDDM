@@ -59,8 +59,13 @@ prompt = ", ".join(prompt)
 # plot ----------------------------------------------------------------
 sp_to_plot = 1          #idx of the simulated scanpath to plot
 
-fig = plt.figure(figsize=(15,10))
-plt.subplot(1, 2, 1)
+fig = plt.figure(tight_layout=True, figsize=(15,10))
+plt.subplot(1, 3, 1)
+plt.imshow(img)
+plt.axis("off")
+plt.title("Original image")
+
+plt.subplot(1, 3, 2)
 plt.imshow(img)
 draw_scanpath(
     scans[sp_to_plot][:, 0], scans[sp_to_plot][:, 1], scans[sp_to_plot][:, 2] * 1000
@@ -68,9 +73,11 @@ draw_scanpath(
 plt.axis("off")
 plt.title("Simulated Scan")
 
-plt.subplot(1, 2, 2)
-plt.imshow(img)
-plt.imshow(compute_density_image(all_scans[:, :2], img.shape[:2]), alpha=0.7)
+plt.subplot(1, 3, 3)
+sal = compute_density_image(all_scans[:, :2], img.shape[:2])
+res = np.multiply(img, np.repeat(sal[:,:,None]/np.max(sal),3, axis=2))
+res = res/np.max(res)
+plt.imshow(res)
 plt.axis("off")
 plt.title("Generated Saliency ("+str(n_obs)+" scanpaths)")
 
