@@ -12,7 +12,9 @@ The project has been developed using `Python 3.9` and `Pytorch 2.3`.
 
 ## Basic Usage
 
-You can just run `python main.py`. An example output is shown below on an arbitrary image. The prompt used is *"delicate"*.
+You can just run `python main.py`. 
+
+An example output is shown below on an arbitrary image. The prompt used is: *"delicate"*.
 
 ![simulation](simulation.png)
 
