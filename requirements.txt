@@ -1,0 +1,9 @@
+numpy
+matplotlib
+tqdm
+torch
+torchvision
+opencv-python
+transformers
+seaborn
+scipy
