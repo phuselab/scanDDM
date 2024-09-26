@@ -18,4 +18,14 @@ An example output is shown below on an arbitrary image. The prompt used is: *"de
 
 ![simulation](simulation.png)
 
+## Citation
 
+Please cite with the following BibTeX:
+```
+@inproceedings{damelio2024scanddm,
+  title={{ScanDDM: Generalised Zero-Shot Neuro-Dynamical Modelling of Goal-Directed Attention}},
+  author={D'Amelio, Alessandro and Lucchi Manuele and Boccignone, Giuseppe},
+  booktitle={Proceedings of the European Conference on Computer Vision},
+  year={2024}
+}
+```
