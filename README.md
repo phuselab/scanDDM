@@ -24,7 +24,7 @@ Please cite with the following BibTeX:
 ```
 @inproceedings{damelio2024scanddm,
   title={{ScanDDM: Generalised Zero-Shot Neuro-Dynamical Modelling of Goal-Directed Attention}},
-  author={D'Amelio, Alessandro and Lucchi Manuele and Boccignone, Giuseppe},
+  author={D'Amelio, Alessandro and Lucchi, Manuele and Boccignone, Giuseppe},
   booktitle={Proceedings of the European Conference on Computer Vision},
   year={2024}
 }
