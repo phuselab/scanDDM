@@ -4,6 +4,8 @@ Implementation of the **scanDDM** model presented in the paper "ScanDDM: General
 
 It models goal-directed attention by integrating high-level abstract concepts provided through arbitrary textual prompts. The approach relies on a multialternative Drift Diffusion Model (DDM), framing gaze dynamics as a decision-making process that encapsulates both fixation duration and saccade execution. This allows to implement a value-based evidence accumulation process akin to the neurobiological mechanisms surmised to underlie human perceptual decision making.
 
+![gif](simulation_gif.gif)
+
 ## Dependencies
 
 You can install all the requirements with `pip install -r requirements.txt`
