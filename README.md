@@ -27,14 +27,11 @@ An example output is shown below on an arbitrary image. The prompt used is: *"de
 Please cite with the following BibTeX:
 ```
 @InProceedings{dscanddm,
-author="D'Amelio, Alessandro
-and Lucchi, Manuele
-and Boccignone, Giuseppe",
+author="D'Amelio, Alessandro and Lucchi, Manuele and Boccignone, Giuseppe",
 title="ScanDDM: Generalised Zero-Shot Neuro-Dynamical Modelling of Goal-Directed Attention",
 booktitle="Computer Vision -- ECCV 2024 Workshops",
 year="2025",
 publisher="Springer Nature Switzerland",
-address="Cham",
 pages="234--244",
 isbn="978-3-031-91578-9"
 }
